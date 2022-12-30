@@ -31,4 +31,7 @@ function addElement() {
 
     console.log($.querySelectorAll(".element").length);
     count.innerHTML = $.querySelectorAll(".element").length;
+
+    input.value = "";
+
 }
